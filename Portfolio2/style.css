@@ -1,0 +1,154 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+}
+
+.card__background {
+    width: 100%;
+    height: 492.5px;
+    background-color: #ffffff;
+}
+
+.card_backgroun_banner {
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/card__background-javascript.png');
+    background-repeat: no-repeat;
+    border-radius: 2px 2px 0 0;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.card__background-radius img {
+    border-radius: 180px;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: absolute; /*preciso por o position e as posicoes left/top*/
+    left: calc(10% - 300px / 2);
+    top: 340px;
+    border: solid 6px white;
+  }
+  
+  .dados_instituicoes {
+    margin-top: 140px;
+    margin-left: -290px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+  }
+  
+  .dados h2 {
+    font-size: 38px;
+    padding-bottom: 8px;
+  }
+  
+  .dados p {
+    font-size: 24px;
+    padding: 5px;
+  }
+  
+  .instituicoes p {
+    font-size: 24px; 
+  }
+  
+ .digital_house {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top:  25px;
+  }
+  
+.digital_house p {
+    padding-left: 15px;
+}
+
+.soulcode img {
+    width: 100px;
+    height: 100px;
+}
+
+.soulcode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top:  15px;
+    margin-left: 20px;
+}
+
+.soulcode p {
+    margin-left: 25px;
+}
+
+.links {
+    margin-top: 10px;
+    margin-left: 43%;
+    margin-right: 43%;
+    transition: transform 0.5s;
+
+}
+
+.origem p {
+    font-size: 28px;
+    padding-left: 40px;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+.origem a {
+    margin-left: 10px;
+}
+
+footer .linkedin {
+    width: 75px;
+    height: 75px;
+    margin-right: 35px;
+}
+
+footer .github {
+    width: 75px;
+    height: 75px;
+    margin-left: 35px;
+}
+
+.links a:hover img{
+    transform: scale(1.2)
+}
+
+footer {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.origem a {
+    font-size: 32px;
+    background-color: #1798c1;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.origem a:hover {
+    background-color:  #0a66c2;
+    color:black;
+    font-variant: small-caps;
+    transform: scale(1.1);
+}
+
+
+
