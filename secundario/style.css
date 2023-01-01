@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #6c757d;
+  background-color: white;
 }
 
 .container {
@@ -50,6 +50,15 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 20px;
+
+}
+
+nav ul li a {
+  font-size: 5rem;
+}
+
+nav ul li a:hover{
+  color: #0a66c2;
 }
 
 a {
@@ -107,7 +116,7 @@ main {
 .card__card {
   flex-basis: 45%;
   border-radius: 30px 0 0;
-  background-color: #6c757d;
+  background-color: white;
   box-shadow: 0px 16px 15px -9px rgba(0, 0, 0, 0.81);
   position: relative; /*very important*/
   object-fit: cover;
@@ -142,6 +151,7 @@ main {
   border-radius: 20px 20px 0 0;
   background-position: center;
   background-size: cover;
+  filter: brightness(40%);
 }
 
 .card__background-javascript {
@@ -233,7 +243,7 @@ main {
 }
 
 .btn {
-  background-color: #ffc107;
+  background-color: #0a66c2;
   padding: 15px;
   border: none;
   width: 200px;

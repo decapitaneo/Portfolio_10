@@ -60,7 +60,18 @@ body {
   }
   
   .instituicoes p {
-    font-size: 24px; 
+    font-size: 30px;
+  }
+  
+  .instituicoes p:hover{
+    color: #0a66c2;
+    font-weight: bold;
+  }
+  
+  .instituicoes a {
+    text-decoration: none;
+    color: black;
+    
   }
   
  .digital_house {
@@ -103,7 +114,7 @@ body {
 
 .origem p {
     font-size: 28px;
-    padding-left: 40px;
+    margin-left: 5rem;
     font-style: italic;
     margin-right: 10px;
 }
