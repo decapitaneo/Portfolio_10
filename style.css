@@ -8,7 +8,8 @@
 
 body {
     width: 100%;
-    background-color: white;
+    background-color: #f8f8f6;
+    
 }
 
 .card__background {
@@ -146,7 +147,7 @@ footer {
 
 .origem a {
     font-size: 32px;
-    background-color: #1798c1;
+    background-color: #009EDB;
     padding: 10px 30px;
     color: white;
     border-radius: 25px;
